@@ -83,14 +83,23 @@
 ## 📁 프로젝트 구조
 
 artiem_core/
+
 └─ src/main/java
+
 ├─ artiem/core/engine # 판정·상황 처리
+
 ├─ artiem/core/state # 플레이어·장면 상태
+
 ├─ artiem/core/narrative # 스토리 진행·턴 요약
+
 ├─ artiem/core/world # 세계관·NPC·장소
+
 ├─ artiem/core/memory # 장기 기억 요약
+
 ├─ artiem/core/session # 전체 세션 묶음
+
 ├─ artiem/core/llm # GPT 프롬프트 렌더러
+
 └─ artiem/core/cli # 콘솔 인터페이스
 
 
